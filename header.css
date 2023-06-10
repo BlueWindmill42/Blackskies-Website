@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: silver;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo a {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: silver;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu li a {
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: silver;
+    position: relative;
+    font-weight: bold;
+  }
+  
+  .search input[type="text"] {
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: silver;
+    color: black;
+  }
+  
+  .search input[type="text"]:focus {
+    outline: none;
+  }
+  
